@@ -1,5 +1,5 @@
 body {
-  background-color: #ff0000;
+  background-color: #ffffff;
   color: #0000FF;
 }
 
@@ -50,3 +50,49 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+/*step two */
+body {
+  font-size: 16px;
+}
+
+/*step 3*/
+header {
+  font-weight: 900;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h3{
+  font-weight: 500;
+}
+
+/*step four */
+p {
+  font-weight: 300;
+  line-height: 1.2;
+  line-height: 75%;
+  line-height: 2em;
+  line-height: normal;
+}
+
+/* step five*/
+body {
+  background: #fff url(images/bloc-logo.png) no-repeat top center;
+}
+
+article {
+  background: #fff url(images/instagram-pic.jpg) no-repeat top center;
+}
+
+/* step six */
+a {
+  text-decoration: none;
+}
+
+a:link { color:#0070BB; } /* unvisited */
+a:visited { color:#0070BA; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
